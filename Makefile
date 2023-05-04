@@ -17,7 +17,7 @@
 #
 # Makefile with some common workflow for dev, build and test
 #
-export GOPROXY?=https://proxy.golang.org/
+export GOPROXY?=http://go-athens.pdd.net/repository/pdd-go-all/
 
 # Get the currently used golang install path (in GOPATH/bin, unless GOBIN is set)
 ifeq (,$(shell go env GOBIN))
